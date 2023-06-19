@@ -4,11 +4,10 @@ CREATE TABLE produto (
     marca VARCHAR(50) NOT NULL, 
     modelo VARCHAR(50) NOT NULL, 
     cor VARCHAR(50) NOT NULL, 
-    voltagem DECIMAL NOT NULL, 
-    peso DECIMAL NOT NULL, 
-    altura VARCHAR(50) NOT NULL, 
-    largura VARCHAR(10) NOT NULL, 
-    profundidade VARCHAR(10) NOT NULL,
-    preco DECIMAL NOT NULL, 
-    status VARCHAR(10) NOT NULL
+    voltagem VARCHAR(10) NOT NULL, 
+    peso VARCHAR(20) NOT NULL, 
+    altura VARCHAR(20) NOT NULL, 
+    largura VARCHAR(20) NOT NULL, 
+    profundidade VARCHAR(20) NOT NULL,
+    preco DECIMAL(10,2) NOT NULL
 );
