@@ -15,7 +15,7 @@ class Produto{
      private $profundidade;
      private $preco;
 
-     public function getI(){
+     public function getId(){
           return $this->id;
      }
 
